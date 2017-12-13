@@ -22,7 +22,7 @@ public class HrishikeshIngale implements Polygon
     private SketchPad myPaper;
 
     // constructors
-    public IrregularPolygon() 
+    public HrishikeshIngale() 
     {
         myPaper = new SketchPad(500,500);
         myPencil = new DrawingTool(myPaper);
