@@ -5,7 +5,8 @@ import java.util.ArrayList; // for ArrayList
 import gpdraw.*;         
 // for DrawingTool
 
-public class IrregularPolygon{
+public class IrregularPolygon implements Polygon
+{
     private ArrayList <Point2D.Double> myPolygon = new ArrayList<Point2D.Double>();
     private double perimeter;
     private double area1;
